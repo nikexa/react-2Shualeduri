@@ -11,7 +11,6 @@ function App() {
   const [comments,SetComments] = useState([])
   const [NewComment,SetNewComment] = useState("")
   const [reply,SetReply] = useState(null)
-  const [submitReply,SetSubmitReply]= useState(null)
   const [replyText,setReplyText] =useState("")
 
 
